@@ -1,0 +1,43 @@
+module FlightGear
+{
+   struct FlightGearData
+   {
+	long    ID;    // User ID
+
+	double Vibration;
+	boolean CanopyHit;
+	boolean LeftOverridePosition;
+	boolean RightOverridePosition;
+
+	double NewXOffsetLeft;
+	double NewYOffsetLeft;
+	double NewZOffsetLeft;
+	double XOffsetMetersLeft;
+	double YOffsetMetersLeft;
+	double ZOffsetMetersLeft;
+	double NewXOffsetRight;
+	double NewYOffsetRight;
+	double NewZOffsetRight;
+	double XOffsetMetersRight;
+	double YOffsetMetersRight;
+	double ZOffsetMetersRight;
+
+	double PitchOffsetDegreesLeft;
+	double YawOffsetDegreesLeft;
+	double RollOffsetDegreesLeft;
+	double NewPitchOffsetLeft;
+	double NewYawOffsetLeft;
+	double NewRollOffsetLeft;
+	double PitchOffsetDegreesRight;
+	double YawOffsetDegreesRight;
+	double RollOffsetDegreesRight;
+	double NewPitchOffsetRight;
+	double NewYawOffsetRight;
+	double NewRollOffsetRight;
+	
+	
+	
+   };            
+   #pragma keylist FlightGearData ID
+	
+};

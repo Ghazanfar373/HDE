@@ -1,0 +1,19 @@
+module ImageGeneration
+{
+   struct ImageGenerationData
+   {
+      	long    ID;    // User ID
+	double Roll_deg;
+	double Pitch_deg;
+	double Heading_deg;
+	double Altitude_ft;
+      	double Latitude;
+	double Longitude;
+	double AltitudeAboveSeaLevel_ft;
+	double SimTime;
+		
+		      
+   };            
+   #pragma keylist ImageGenerationData ID
+	
+};

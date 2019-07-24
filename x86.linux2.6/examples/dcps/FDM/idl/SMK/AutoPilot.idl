@@ -1,0 +1,20 @@
+module AutoPilot
+{
+   struct AutoPilotData
+   {
+      	long    ID;    // User ID
+	double ThrottleCommand;
+	double ElevatorCommand;
+	double AileronCommand;
+	double RudderCommand;
+	double LeftBrakeCommand;
+	double RightBrakeCommand;
+	double FlapCommand;
+	boolean EngineStartSwitch;
+	double WindSpeedCommand;
+	double WindDirectionCommand;
+		      
+   };            
+   #pragma keylist AutoPilotData ID
+	
+};

@@ -1,0 +1,64 @@
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:05:43 2012
+Description : Lease Manager for Participant 0x9da110 started
+Node        : salman
+Process     : ./FDMDataPublisher <3413>
+Thread      : watchdog 7f18e3e67700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/149316555
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:05:43 2012
+Description : Resend Manager for Participant 0x9da110 started
+Node        : salman
+Process     : ./FDMDataPublisher <3413>
+Thread      : resendManager 7f18e3e40700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/149289238
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:05:43 2012
+Description : Resend Manager for Participant 0x9da110 stopped
+Node        : salman
+Process     : ./FDMDataPublisher <3413>
+Thread      : resendManager 7f18e3e40700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/155596155
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:05:43 2012
+Description : Lease Manager for Participant 0x9da110 stopped
+Node        : salman
+Process     : ./FDMDataPublisher <3413>
+Thread      : watchdog 7f18e3e67700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/155617090
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:29 2012
+Description : Resend Manager for Participant 0x13fc110 started
+Node        : salman
+Process     : ./FDMDataPublisher <3470>
+Thread      : resendManager 7f7c8081a700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/372771117
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:29 2012
+Description : Lease Manager for Participant 0x13fc110 started
+Node        : salman
+Process     : ./FDMDataPublisher <3470>
+Thread      : watchdog 7f7c80841700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/372748468
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:29 2012
+Description : Lease Manager for Participant 0x13fc110 stopped
+Node        : salman
+Process     : ./FDMDataPublisher <3470>
+Thread      : watchdog 7f7c80841700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/379012816
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:29 2012
+Description : Resend Manager for Participant 0x13fc110 stopped
+Node        : salman
+Process     : ./FDMDataPublisher <3470>
+Thread      : resendManager 7f7c8081a700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/379004116

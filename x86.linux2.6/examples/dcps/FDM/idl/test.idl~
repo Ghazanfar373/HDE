@@ -1,0 +1,13 @@
+module IOS_FDMInitialization
+{
+   struct FDMIOS
+   {
+      long IOSID;    // Command ID
+	  
+      double configuration; 
+      double runway; 
+	  
+	  
+   };
+   #pragma keylist FDMIOS IOSID
+};

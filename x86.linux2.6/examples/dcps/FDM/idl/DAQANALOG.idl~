@@ -1,0 +1,15 @@
+module DAQ_ANALOG
+{
+   struct DaqAnalog
+   {
+          long daID;  // data ID
+	  double StickP;
+	  double StickR;
+	  double StickY;
+	  double Throttle;
+	  double BigPotentiometer;
+	  double SmallPotentiometer;
+          
+   };
+   #pragma keylist DaqAnalog daID
+};

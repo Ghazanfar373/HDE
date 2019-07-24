@@ -1,0 +1,18 @@
+module JSBSim
+{
+   struct fdmdata
+   {
+      	long    ID;    // User ID
+      	double Latitude;
+	double Longitude;
+	double AltitudeSeaLevel;
+	double HeadingDeg;
+	double PitchDeg;
+	double RollDeg;
+	double SimTime;
+		
+		      
+   };            
+   #pragma keylist fdmdata ID
+	
+};

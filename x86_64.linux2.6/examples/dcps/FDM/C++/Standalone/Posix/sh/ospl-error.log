@@ -1,0 +1,16 @@
+========================================================================================
+Report      : ERROR
+Date        : Tue Oct 23 08:16:48 2012
+Description : c_metaBind failed for Struct <Msg> in scope <FDMData>.
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : main thread 7f76a8bdf740
+Internals   : V5.5.1OSS/sd_deserXmlStructure/sd_serializerXMLTypeinfo.c/2235/0/225368181
+========================================================================================
+Report      : ERROR
+Date        : Tue Oct 23 08:16:48 2012
+Description : Deserialize failed
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : main thread 7f76a8bdf740
+Internals   : V5.5.1OSS/Type deserialize/sd_serializerXMLTypeinfo.c/2815/0/225422149

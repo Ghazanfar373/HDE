@@ -1,0 +1,588 @@
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/223150133
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/223286405
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/239601990
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Daemon: Locking not defined using default value disabled
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/239819841
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Resend Manager for Participant 0x1a6c970 started
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : resendManager 7f7847ebe700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/240280228
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Lease Manager for Participant 0x1a6c970 started
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : watchdog 7f7847ed8700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/240339389
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Configuration> parameter service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/247602999
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Arguments> parameter service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/247718499
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/247823549
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/247869828
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/247912103
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <FailureAction> parameter service durability
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/248028885
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Configuration> parameter service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/248083290
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Arguments> parameter service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/248125831
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/248166933
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/248207426
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/248247723
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Taking default for <FailureAction> parameter service networking
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/248288278
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : The C&M Service thread is started.
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : OSPL C&M Command Manager 7f7847d9a700
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/248619409
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Started service durability with args "durability" "file:///home/talha/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/249143165
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Started service networking with args "networking" "file:///home/talha/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : talha-mint-vm
+Process     : spliced <5139>
+Thread      : main thread 7f7847ebf720
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/249343180
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : service 'networking': Locking disabled
+Node        : talha-mint-vm
+Process     : networking <5150>
+Thread      : main thread 7f75f07a8720
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/261995159
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : my NodeId = 0xfad19c9
+Node        : talha-mint-vm
+Process     : networking <5150>
+Thread      : main thread 7f75f07a8720
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/264391941
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Resend Manager for Participant 0x16cdaa0 started
+Node        : talha-mint-vm
+Process     : networking <5150>
+Thread      : resendManager 7f75f07a7700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/264804587
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Lease Manager for Participant 0x16cdaa0 started
+Node        : talha-mint-vm
+Process     : networking <5150>
+Thread      : watchdog 7f75f07c2700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/264833068
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : service 'durability': Locking disabled
+Node        : talha-mint-vm
+Process     : durability <5149>
+Thread      : main thread 7f5cccb60720
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/271718694
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Resend Manager for Participant 0xc22b70 started
+Node        : talha-mint-vm
+Process     : durability <5149>
+Thread      : resendManager 7f5cccb5f700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/275389457
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Lease Manager for Participant 0xc22b70 started
+Node        : talha-mint-vm
+Process     : durability <5149>
+Thread      : watchdog 7f5cccb79700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/275423050
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:03 2012
+Description : Durability identification is: 233245359
+Node        : talha-mint-vm
+Process     : durability <5149>
+Thread      : main thread 7f5cccb60720
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/289200259
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:09 2012
+Description : Persistence not enabled!
+Node        : talha-mint-vm
+Process     : durability <5149>
+Thread      : main thread 7f5cccb60720
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/347802075
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/479018060
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/491113402
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/498996199
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Daemon: Locking not defined using default value disabled
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/499142626
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Lease Manager for Participant 0xaf4970 started
+Node        : salman
+Process     : spliced <3179>
+Thread      : watchdog 7f5894a24700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/499720854
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Resend Manager for Participant 0xaf4970 started
+Node        : salman
+Process     : spliced <3179>
+Thread      : resendManager 7f5894a00700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/499710801
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Configuration> parameter service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/500020280
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Arguments> parameter service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/500067514
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/500092766
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/500117831
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/500139932
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <FailureAction> parameter service durability
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/500161415
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Configuration> parameter service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/500193359
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Arguments> parameter service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/500215304
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/500238859
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/500260303
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/500280932
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Taking default for <FailureAction> parameter service networking
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/500305647
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : The C&M Service thread is started.
+Node        : salman
+Process     : spliced <3179>
+Thread      : OSPL C&M Command Manager 7f58948dc700
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/500540876
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Started service durability with args "durability" "file:///home/all/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/500752341
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Started service networking with args "networking" "file:///home/all/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/500877757
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : service 'durability': Locking disabled
+Node        : salman
+Process     : durability <3189>
+Thread      : main thread 7f69c6a5b700
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/524946467
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : service 'networking': Locking disabled
+Node        : salman
+Process     : networking <3190>
+Thread      : main thread 7ffb0ac8a700
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/525137879
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Resend Manager for Participant 0x780b70 started
+Node        : salman
+Process     : durability <3189>
+Thread      : resendManager 7f69c6a59700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/525782924
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Lease Manager for Participant 0x780b70 started
+Node        : salman
+Process     : durability <3189>
+Thread      : watchdog 7f69c6a7d700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/525785971
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Lease Manager for Participant 0x1b94aa0 started
+Node        : salman
+Process     : networking <3190>
+Thread      : watchdog 7ffb0acad700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/526646651
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : Resend Manager for Participant 0x1b94aa0 started
+Node        : salman
+Process     : networking <3190>
+Thread      : resendManager 7ffb0ac88700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/526685794
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:26 2012
+Description : my NodeId = 0x1f68b715
+Node        : salman
+Process     : networking <3190>
+Thread      : main thread 7ffb0ac8a700
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/527875266
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:27 2012
+Description : Durability identification is: 496869166
+Node        : salman
+Process     : durability <3189>
+Thread      : main thread 7f69c6a5b700
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/37848315
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:50:33 2012
+Description : Persistence not enabled!
+Node        : salman
+Process     : durability <3189>
+Thread      : main thread 7f69c6a5b700
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/342192473
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:03 2012
+Description : Lease Manager for Participant 0x1b94aa0 stopped
+Node        : salman
+Process     : networking <3190>
+Thread      : watchdog 7ffb0acad700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/92151279
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:03 2012
+Description : Resend Manager for Participant 0x1b94aa0 stopped
+Node        : salman
+Process     : networking <3190>
+Thread      : resendManager 7ffb0ac88700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/92152462
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:05 2012
+Description : Resend Manager for Participant 0x780b70 stopped
+Node        : salman
+Process     : durability <3189>
+Thread      : resendManager 7f69c6a59700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/170663795
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:05 2012
+Description : Lease Manager for Participant 0x780b70 stopped
+Node        : salman
+Process     : durability <3189>
+Thread      : watchdog 7f69c6a7d700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/170664088
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:06 2012
+Description : The C&M Service thread is notified to terminate.
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/v_splicedCAndMCommandDispatcherQuit/v_spliced.c/2010/0/227075023
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:06 2012
+Description : The C&M Service thread is stopped.
+Node        : salman
+Process     : spliced <3179>
+Thread      : OSPL C&M Command Manager 7f58948dc700
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2062/0/227229551
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:06 2012
+Description : Resend Manager for Participant 0xaf4970 stopped
+Node        : salman
+Process     : spliced <3179>
+Thread      : resendManager 7f5894a00700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/227252331
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:06 2012
+Description : Lease Manager for Participant 0xaf4970 stopped
+Node        : salman
+Process     : spliced <3179>
+Thread      : watchdog 7f5894a24700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/227250331
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:06 2012
+Description : ==============================================
+              == The service has successfully terminated. ==
+              ==============================================
+Node        : salman
+Process     : spliced <3179>
+Thread      : main thread 7f5894a02700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/749/0/230556195

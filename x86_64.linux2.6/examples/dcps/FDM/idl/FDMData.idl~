@@ -1,0 +1,39 @@
+module FDMData
+{
+   struct Msg
+   {
+      long ID;    // Instance ID
+      
+      double Thrust;   //Thrust in Pounds
+      
+      short dualFuelIndicatorPort;   // dual fuel guage indicator port side (ltr)
+      short dualFuelIndicatorStar;    // dual fuel guage indicator star side (ltr)
+      float fuelFlowRate;             // rate of fuel flow (ltr/min)
+      short dualHydraulicGuageEmg;    // dual hydraulic guage emergency (bar)
+      short dualHydraulicGuageUC;     // dual hydraulic guage undercarriage (bar)
+      float machNumber;               // mach meter 
+      boolean rightExternalWingFuelTankIndicator;  // right external wing tank fuel indicator
+      boolean leftExternalWingFuelTankIndicator;   // left external wing tank fuel indicator
+      boolean rightInternalWingFuelTankIndicator;  // right internal wing tank fuel indicator
+      boolean leftInternalWingFuelTankIndicator;  // left internal wing tank fuel indicator
+      boolean upperbayFuelTankIndicator;          // upperbay fuel tank indicator
+      boolean centerlineFuelTankIndicator;        // centerline fuel tank indicator
+      float   temperatureEGT;                     // EGT temperature (C)
+      short RPM;                                  //ENGINE RPM 
+      long altitudeAboveSeaLevel;                 //Aircraft Altitude (ft)
+      boolean altitudeAboveSeaLevelFlag;          // altitude flag
+      float accelerometer;                        // number of gs
+      float airspeedMachMeter;                    // airspeed mach meter
+      float verticalSpeedIndicator;               // vertical velocity indicator (ft min)
+      boolean incidenceIndicatorRed;              // angle of attack
+      boolean incidenceIndicatorAmber;            // angle of attack
+      boolean incidenceIndicatorGreen;            // angle of attack
+      float heading;                              // heading degrees
+      long altitudeAboveGroundLevel;              // altitude above ground level
+      boolean altitudeAboveGroundLevelFlag;       // altitude flag
+      float rollDegrees;                          // roll angle degrees
+      float pitchDegrees;                         // pitch angle degrees   
+
+   };
+   #pragma keylist Msg ID
+};

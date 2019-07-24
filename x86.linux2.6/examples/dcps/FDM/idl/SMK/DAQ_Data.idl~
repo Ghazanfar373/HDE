@@ -1,0 +1,17 @@
+module DAQ_Data
+{
+   struct DaqData
+   {
+	long dID;  // data ID
+	double Throttle;
+	double ElevatorCommand;
+	double AileronCommand;
+	double RudderCommand;
+	double LeftBrake;
+	double RightBrake;
+	double FlapCommand;
+	boolean EngineStartSwitch;	
+	
+   };
+   #pragma keylist DaqData dID
+};

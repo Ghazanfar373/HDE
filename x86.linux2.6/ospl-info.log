@@ -1,0 +1,1089 @@
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "MirageIFSim"
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/961449794
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "MirageIFSim"
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/961653636
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "MirageIFSim"
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/979861861
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Daemon: Locking not defined using default value disabled
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/980055670
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Resend Manager for Participant 0x8d5af88 started
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : resendManager b7071b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/980999280
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Lease Manager for Participant 0x8d5af88 started
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : watchdog b77bdb40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/980999484
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Configuration> parameter service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/981111133
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Arguments> parameter service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/981151476
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/981184464
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/981210995
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/981235993
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <FailureAction> parameter service durability
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/981260445
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Configuration> parameter service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/981297819
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Arguments> parameter service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/981322873
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/981360530
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/981384187
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/981407247
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Taking default for <FailureAction> parameter service networking
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/981429992
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : The C&M Service thread is started.
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : OSPL C&M Command Manager b6affb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/982036735
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Started service durability with args "durability" "file:///home/salman/JSBSim_scripts/MirageIFSim.xml"
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/982528933
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Started service networking with args "networking" "file:///home/salman/JSBSim_scripts/MirageIFSim.xml"
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/982665651
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : service 'durability': Locking disabled
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : main thread b73bb6c0
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/983926721
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : service 'networking': Locking disabled
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : main thread b73786c0
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/983986614
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Lease Manager for Participant 0x8b500e8 started
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : watchdog b7705b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/984595824
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Resend Manager for Participant 0x8b500e8 started
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : resendManager b6fb9b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/984639566
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Resend Manager for Participant 0x85b0068 started
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : resendManager b6f76b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/987588272
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : Lease Manager for Participant 0x85b0068 started
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : watchdog b76dcb40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/987611868
+========================================================================================
+Report      : WARNING
+Date        : Mon Jan  7 11:27:14 2013
+Description : error calling getaddrinfo("eth0"): No address associated with hostname
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : main thread b73786c0
+Internals   : V5.5.1OSS/os_sockaddrStringToAddress/os_socket.c/140/0/989585036
+========================================================================================
+Report      : WARNING
+Date        : Mon Jan  7 11:27:14 2013
+Description : ignoring invalid networking address eth0
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : main thread b73786c0
+Internals   : V5.5.1OSS/os_sockaddrStringToAddress/os_socket.c/166/0/989600118
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:14 2013
+Description : my NodeId = 0x3ae43097
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : main thread b73786c0
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/990865285
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:15 2013
+Description : Durability identification is: 976339340
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : main thread b73bb6c0
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/698219808
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 11:27:22 2013
+Description : Persistence not enabled!
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : main thread b73bb6c0
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/2335138
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:12 2013
+Description : Resend Manager for Participant 0x85b0068 stopped
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : resendManager b6f76b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/668594611
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:12 2013
+Description : Lease Manager for Participant 0x85b0068 stopped
+Node        : salman-desktop
+Process     : networking <17068>
+Thread      : watchdog b76dcb40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/668599955
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:15 2013
+Description : Resend Manager for Participant 0x8b500e8 stopped
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : resendManager b6fb9b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/930473145
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:15 2013
+Description : Lease Manager for Participant 0x8b500e8 stopped
+Node        : salman-desktop
+Process     : durability <17067>
+Thread      : watchdog b7705b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/930478063
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:16 2013
+Description : The C&M Service thread is notified to terminate.
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/v_splicedCAndMCommandDispatcherQuit/v_spliced.c/2010/0/964450466
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:16 2013
+Description : Resend Manager for Participant 0x8d5af88 stopped
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : resendManager b7071b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/964614370
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:16 2013
+Description : Lease Manager for Participant 0x8d5af88 stopped
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : watchdog b77bdb40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/964651848
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:16 2013
+Description : The C&M Service thread is stopped.
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : OSPL C&M Command Manager b6affb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2062/0/964638257
+========================================================================================
+Report      : INFO
+Date        : Mon Jan  7 12:16:16 2013
+Description : ==============================================
+              == The service has successfully terminated. ==
+              ==============================================
+Node        : salman-desktop
+Process     : spliced <17057>
+Thread      : main thread b74736c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/749/0/969573950
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/455950420
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/469059534
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/482451372
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Daemon: Locking not defined using default value disabled
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/482629769
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Lease Manager for Participant 0x9c120b8 started
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : watchdog b7791b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/483318872
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Resend Manager for Participant 0x9c120b8 started
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : resendManager b703db40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/483318301
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Configuration> parameter service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/483385493
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Arguments> parameter service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/483465135
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/483498083
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/483520943
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/483543715
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <FailureAction> parameter service durability
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/483566154
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Configuration> parameter service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/483599684
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Arguments> parameter service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/483622574
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/483644423
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/483666144
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/483699951
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Taking default for <FailureAction> parameter service networking
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/483723556
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : The C&M Service thread is started.
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : OSPL C&M Command Manager b6affb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/484433103
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Started service durability with args "durability" "file:///home/salman/HDE/x86.linux2.6/etc/config/ospl.xml"
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/484812078
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Started service networking with args "networking" "file:///home/salman/HDE/x86.linux2.6/etc/config/ospl.xml"
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/484948021
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : service 'networking': Locking disabled
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : main thread b742d6c0
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/492688867
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Lease Manager for Participant 0x8102058 started
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : watchdog b7799b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/493680774
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Resend Manager for Participant 0x8102058 started
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : resendManager b702bb40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/493688885
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : my NodeId = 0x1d74111a
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : main thread b742d6c0
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/496090033
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : service 'durability': Locking disabled
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : main thread b74546c0
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/499623488
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Resend Manager for Participant 0x84dc0e0 started
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : resendManager b7052b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/500487602
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:12 2013
+Description : Lease Manager for Participant 0x84dc0e0 started
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : watchdog b77a6b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/500491381
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:13 2013
+Description : Durability identification is: 478680935
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : main thread b74546c0
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/12178785
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 09:52:19 2013
+Description : Persistence not enabled!
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : main thread b74546c0
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/316283204
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 19 09:55:30 2013
+Description : plugChannel Channels/Channel[@name='Reliable']: Node 0x582e5cb (address 192.168.7.6) has not acked message (id=208) after 100 retries
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : Channels/Channel[@name='Reliable'] b6e50b40
+Internals   : V5.5.1OSS/networking: reliable protocol/nw_plugSendChannel.c/3312/0/40082751
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 19 09:55:30 2013
+Description : Node 0x582e5cb (address 192.168.7.6) not responding or no heartbeats received, removing it from the reliable protocol
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : Channels/Channel[@name='Reliable'] b6e50b40
+Internals   : V5.5.1OSS/networking: reliable protocol/nw_plugSendChannel.c/1793/0/40153702
+========================================================================================
+Report      : WARNING
+Date        : Fri Jul 19 09:56:30 2013
+Description : Missed heartbeat for node 979008791
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : OSPL Garbage Collector b68ffb40
+Internals   : V5.5.1OSS/v_spliced/v_spliced.c/2162/0/504812065
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:09 2013
+Description : Resend Manager for Participant 0x8102058 stopped
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : resendManager b702bb40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/856478704
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:09 2013
+Description : Lease Manager for Participant 0x8102058 stopped
+Node        : salman-desktop
+Process     : networking <29055>
+Thread      : watchdog b7799b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/856482156
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:13 2013
+Description : Resend Manager for Participant 0x84dc0e0 stopped
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : resendManager b7052b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/343041716
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:13 2013
+Description : Lease Manager for Participant 0x84dc0e0 stopped
+Node        : salman-desktop
+Process     : durability <29054>
+Thread      : watchdog b77a6b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/343047599
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:14 2013
+Description : The C&M Service thread is notified to terminate.
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/v_splicedCAndMCommandDispatcherQuit/v_spliced.c/2010/0/370211040
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:14 2013
+Description : The C&M Service thread is stopped.
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : OSPL C&M Command Manager b6affb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2062/0/370376011
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:14 2013
+Description : Lease Manager for Participant 0x9c120b8 stopped
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : watchdog b7791b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/370394634
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:14 2013
+Description : Resend Manager for Participant 0x9c120b8 stopped
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : resendManager b703db40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/370394320
+========================================================================================
+Report      : INFO
+Date        : Fri Jul 19 10:43:14 2013
+Description : ==============================================
+              == The service has successfully terminated. ==
+              ==============================================
+Node        : salman-desktop
+Process     : spliced <29044>
+Thread      : main thread b743f6c0
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/749/0/374620129
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "DDSDomain"
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/505607851
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "DDSDomain"
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/515056458
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "DDSDomain"
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/554330609
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Lease Manager for Participant 0x8b14f90 started
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : watchdog b770ab40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/554744529
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Resend Manager for Participant 0x8b14f90 started
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : resendManager b6f81b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/554695513
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Daemon: Locking not defined using default value disabled
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/554693503
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Configuration> parameter service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/555036729
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Arguments> parameter service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/555087988
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/555121817
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/555153338
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/555183082
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <FailureAction> parameter service durability
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/555212543
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Configuration> parameter service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/555280839
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Arguments> parameter service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/555314520
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/555345061
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/555373340
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/555401041
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Taking default for <FailureAction> parameter service networking
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/555428460
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Started service durability with args "durability" "file:///home/sunny/SMK AutoPilot/DDSDomain.xml"
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/556487572
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : The C&M Service thread is started.
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : OSPL C&M Command Manager b68ffb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/556543283
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Started service networking with args "networking" "file:///home/sunny/SMK AutoPilot/DDSDomain.xml"
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/557138019
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : service 'durability': Locking disabled
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : main thread b73b7b00
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/612765675
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Lease Manager for Participant 0x89de0e8 started
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : watchdog b773db40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/613597241
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Resend Manager for Participant 0x89de0e8 started
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : resendManager b6fb4b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/613609134
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : service 'networking': Locking disabled
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/627242757
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Lease Manager for Participant 0x9ab2068 started
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : watchdog b7717b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/628551191
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : Resend Manager for Participant 0x9ab2068 started
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : resendManager b6f70b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/628564517
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 11:34:50 2016
+Description : error calling getaddrinfo("eth0"): Name or service not known
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/os_sockaddrStringToAddress/os_socket.c/140/0/990732872
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 11:34:50 2016
+Description : ignoring invalid networking address eth0
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/os_sockaddrStringToAddress/os_socket.c/166/0/990812467
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 11:34:50 2016
+Description : Requested interface eth0 not found or not multicast enabled, using first available instead
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/networking: retrieving multicast interface/nw_socketMulticast.c/133/0/990847785
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:50 2016
+Description : my NodeId = 0x2608d7b7
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/995586919
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:51 2016
+Description : Durability identification is: 547670024
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : main thread b73b7b00
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/336588202
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 11:34:57 2016
+Description : Persistence not enabled!
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : main thread b73b7b00
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/342301111
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 13:21:29 2016
+Description : Caught termination request: 0. Please use 'ospl stop' for termination.
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : main thread b73b7b00
+Internals   : V5.5.1OSS/serviceTermHandler/u_service.c/54/0/938030305
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 13:21:29 2016
+Description : Caught termination request: 0. Please use 'ospl stop' for termination.
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : main thread b73b7b00
+Internals   : V5.5.1OSS/serviceTermHandler/u_service.c/54/0/947143984
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 13:21:29 2016
+Description : Caught termination request: 0. Please use 'ospl stop' for termination.
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : main thread b7372700
+Internals   : V5.5.1OSS/serviceTermHandler/u_service.c/54/0/938038409
+========================================================================================
+Report      : WARNING
+Date        : Sat Nov 19 13:21:29 2016
+Description : Caught termination request: 0. Please use 'ospl stop' for termination.
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : b7371b40
+Internals   : V5.5.1OSS/serviceTermHandler/u_service.c/54/0/947103577
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:33 2016
+Description : Resend Manager for Participant 0x9ab2068 stopped
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : resendManager b6f70b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/220502376
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:33 2016
+Description : Lease Manager for Participant 0x9ab2068 stopped
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : watchdog b7717b40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/220509834
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:35 2016
+Description : Lease Manager for Participant 0x89de0e8 stopped
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : watchdog b773db40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/323594840
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:35 2016
+Description : Resend Manager for Participant 0x89de0e8 stopped
+Node        : sunny-7G-Series
+Process     : durability <724>
+Thread      : resendManager b6fb4b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/323616180
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:36 2016
+Description : The C&M Service thread is notified to terminate.
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/v_splicedCAndMCommandDispatcherQuit/v_spliced.c/2010/0/372620310
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:36 2016
+Description : Lease Manager for Participant 0x8b14f90 stopped
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : watchdog b770ab40
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/372775587
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:36 2016
+Description : Resend Manager for Participant 0x8b14f90 stopped
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : resendManager b6f81b40
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/372784471
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:36 2016
+Description : The C&M Service thread is stopped.
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : OSPL C&M Command Manager b68ffb40
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2062/0/372779404
+========================================================================================
+Report      : INFO
+Date        : Sat Nov 19 13:21:36 2016
+Description : ==============================================
+              == The service has successfully terminated. ==
+              ==============================================
+Node        : sunny-7G-Series
+Process     : spliced <714>
+Thread      : main thread b7384b00
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/749/0/378967978

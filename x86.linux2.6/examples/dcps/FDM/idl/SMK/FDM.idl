@@ -1,0 +1,41 @@
+module FDM
+{
+   struct fdmdata
+   {
+      	long    ID;    // User ID
+	double Velocity_Kts;
+	double MachNumber;
+	double GValue;
+	double SideSlip;
+	double Roll_deg;
+	double Pitch_deg;
+	double AtmosphereTemperature;
+	double Heading_deg;
+	double Altitude_ft;
+	double VerticleVelocity_fpm;
+      	double Latitude;
+	double Longitude;
+	double AltitudeAboveSeaLevel_ft;
+	double SimTime;
+	double AngleOFAttack;
+	double TrueAirSpeed;
+	double GroundAirSpeed;
+	double thetadot;
+	double phidot;
+	double psidot;
+	double WindSpeed;
+	double WindDirection;
+	//ElectricalSystem
+	boolean GeneratorStatus;
+	boolean GeneratorIndicatorLight;
+	double ACBusVoltage;
+	boolean ACBusIndicatorLight;
+	double DCBusVoltage;
+	boolean DCBusIndicatorLight;
+	double BatteryVoltage;
+		
+		      
+   };            
+   #pragma keylist fdmdata ID
+	
+};
