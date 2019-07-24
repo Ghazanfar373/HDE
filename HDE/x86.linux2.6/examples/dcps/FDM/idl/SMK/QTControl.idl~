@@ -1,0 +1,20 @@
+module QTControl
+{
+   struct QtControlData
+   {
+      	long    ID;    // User ID
+	double Throttle;
+	double ElevatorCommand;
+	double AileronCommand;
+	double RudderCommand;
+	double SteerLeft;
+	double SteerRight;
+	double LeftBrake;
+	double RightBrake;
+	double FlapCommand;
+	boolean EngineStartSwitch;
+		      
+   };            
+   #pragma keylist QtControlData ID
+	
+};

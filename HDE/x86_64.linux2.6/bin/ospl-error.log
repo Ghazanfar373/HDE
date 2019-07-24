@@ -1,0 +1,56 @@
+========================================================================================
+Report      : ERROR
+Date        : Tue Dec  4 13:52:42 2012
+Description : Could not open file:///home/all/jsbsim-1.0rc2_04-12-12/JSBSim-1.0/MirageIFSim.xml 
+Node        : salman
+Process     : ospl <18427>
+Thread      : main thread 7f1d5471b700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/666530848
+========================================================================================
+Report      : ERROR
+Date        : Tue Dec  4 13:52:50 2012
+Description : Could not open file:///home/all/jsbsim-1.0rc2_04-12-12/JSBSim-1.0/MirageIFSim.xml
+Node        : salman
+Process     : ospl <18429>
+Thread      : main thread 7f82b5986700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/127713497
+========================================================================================
+Report      : ERROR
+Date        : Tue Dec  4 14:11:50 2012
+Description : Could not open file:///home/all/jsbsim-1.0rc2/JSBSim-1.0 
+Node        : salman
+Process     : ospl <28961>
+Thread      : main thread 7f9b76d95700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/512068381
+========================================================================================
+Report      : ERROR
+Date        : Tue Dec  4 14:12:06 2012
+Description : Could not open file:///home/all/jsbsim-1.0rc2/JSBSim-1.0 
+Node        : salman
+Process     : ospl <28964>
+Thread      : main thread 7fc0a19c9700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/399821490
+========================================================================================
+Report      : ERROR
+Date        : Wed Dec  5 11:57:57 2012
+Description : Could not open file:///home/all/JSBSim%20scripts/MirageIFSim.xml
+Node        : salman
+Process     : ospl <3304>
+Thread      : main thread 7f3c01e9a700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/5197707
+========================================================================================
+Report      : ERROR
+Date        : Mon Dec 10 10:54:12 2012
+Description : Could not open file:///home/all/JSBSim_scripts/MirageIFSim
+Node        : salman
+Process     : ospl <16607>
+Thread      : main thread 7efff66d1700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/508488814
+========================================================================================
+Report      : ERROR
+Date        : Mon Dec 10 10:54:31 2012
+Description : Could not open file:///home/all/JSBSim_scripts/MirageIFSim
+Node        : salman
+Process     : ospl <16610>
+Thread      : main thread 7f13892fe700
+Internals   : V5.5.1OSS/configuration parser/cfg_parser.y/326/0/153919991

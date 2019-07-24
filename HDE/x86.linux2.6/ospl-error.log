@@ -1,0 +1,8 @@
+========================================================================================
+Report      : ERROR
+Date        : Sat Nov 19 13:21:30 2016
+Description : sendto returned errno 101 (Network is unreachable)
+Node        : sunny-7G-Series
+Process     : networking <725>
+Thread      : Discovery[@enabled!='false'] b69a1b40
+Internals   : V5.5.1OSS/networking: sending data to the socket/nw_socket.c/1348/0/730123662

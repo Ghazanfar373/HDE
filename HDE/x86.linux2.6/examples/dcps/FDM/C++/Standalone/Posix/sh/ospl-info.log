@@ -1,0 +1,539 @@
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:05:48 2012
+Description : Resend Manager for Participant 0x2311110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4352>
+Thread      : resendManager 7f7a59e51700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/601436718
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:05:48 2012
+Description : Lease Manager for Participant 0x2311110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4352>
+Thread      : watchdog 7f7a59e6e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/602118511
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:05:48 2012
+Description : Lease Manager for Participant 0x2311110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4352>
+Thread      : watchdog 7f7a59e6e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/811325858
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:05:48 2012
+Description : Resend Manager for Participant 0x2311110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4352>
+Thread      : resendManager 7f7a59e51700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/811519291
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:16:48 2012
+Description : Resend Manager for Participant 0x252f110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : resendManager 7f76a8bdd700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/225063725
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:16:48 2012
+Description : Lease Manager for Participant 0x252f110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : watchdog 7f76a8bfa700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/225304315
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:16:48 2012
+Description : Resend Manager for Participant 0x252f110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : resendManager 7f76a8bdd700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/225684585
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:16:48 2012
+Description : Lease Manager for Participant 0x252f110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <4604>
+Thread      : watchdog 7f76a8bfa700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/225772242
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:14 2012
+Description : Resend Manager for Participant 0xf1c110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : resendManager 7f535e661700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/129449382
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:14 2012
+Description : Lease Manager for Participant 0xf1c110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : watchdog 7f535e67e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/129555291
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:16 2012
+Description : Lock operation cancelled: Entity = <NULL>
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : 7f535bc4b700
+Internals   : V5.5.1OSS/u_entityLock/u_entity.c/695/0/245022240
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:16 2012
+Description : Operation u_entityLock failed: Query = 0x0, result = U_RESULT_ILL_PARAM.
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : 7f535bc4b700
+Internals   : V5.5.1OSS/u_queryFree/u_query.c/163/0/245122649
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:16 2012
+Description : Resend Manager for Participant 0xf1c110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : resendManager 7f535e661700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/245619360
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:16 2012
+Description : Lease Manager for Participant 0xf1c110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5186>
+Thread      : watchdog 7f535e67e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/245713753
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:25 2012
+Description : Resend Manager for Participant 0xf2b110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5198>
+Thread      : resendManager 7f016c0fc700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/938071441
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:25 2012
+Description : Lease Manager for Participant 0xf2b110 started
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5198>
+Thread      : watchdog 7f016c119700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/938177784
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:26 2012
+Description : Lease Manager for Participant 0xf2b110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5198>
+Thread      : watchdog 7f016c119700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/151797681
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:44:26 2012
+Description : Resend Manager for Participant 0xf2b110 stopped
+Node        : talha-mint-vm
+Process     : ../exec/FDMDataSubscriber <5198>
+Thread      : resendManager 7f016c0fc700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/152398565
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:56:18 2012
+Description : Resend Manager for Participant 0x1232110 started
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <4153>
+Thread      : resendManager 7f899bb5e700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/308881747
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:56:18 2012
+Description : Lease Manager for Participant 0x1232110 started
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <4153>
+Thread      : watchdog 7f899bb84700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/308912627
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:56:18 2012
+Description : Resend Manager for Participant 0x1232110 stopped
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <4153>
+Thread      : resendManager 7f899bb5e700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/515289571
+========================================================================================
+Report      : INFO
+Date        : Tue Oct 23 08:56:18 2012
+Description : Lease Manager for Participant 0x1232110 stopped
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <4153>
+Thread      : watchdog 7f899bb84700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/515297105
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:51:02 2012
+Description : Resend Manager for Participant 0x1a53110 started
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <3233>
+Thread      : resendManager 7f26ffa77700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/67013528
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:51:02 2012
+Description : Lease Manager for Participant 0x1a53110 started
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <3233>
+Thread      : watchdog 7f26ffa9e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/67047563
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:51:02 2012
+Description : Resend Manager for Participant 0x1a53110 stopped
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <3233>
+Thread      : resendManager 7f26ffa77700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/273990906
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 09:51:02 2012
+Description : Lease Manager for Participant 0x1a53110 stopped
+Node        : salman
+Process     : ../exec/FDMDataSubscriber <3233>
+Thread      : watchdog 7f26ffa9e700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/274025846
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : The user file-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/os_svr4_getKey/os_sharedmem_seg.c/334/1/334120339
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : The shared-memory-creation mask (0002) set for the service specifies
+              exclusive read or write access for at least one of the access catagories.
+              Read and write access should always be paired,
+              both prohibit or granted for each access catagory.
+              Therefore the service has set the user access permissions
+              for the shared memory segment associated to this domain to (0006).
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/os_svr4_sharedMemoryCreate/os_sharedmem_seg.c/529/1/334314418
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : +++++++++++++++++++++++++++++++++++++++++++
+              ++ The service has successfully started. ++
+              +++++++++++++++++++++++++++++++++++++++++++
+Storage     : 10240 Kbytes.
+Locking     : default
+Domain      : "OpenSpliceV5.5.1OSS"
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/The OpenSplice domain service/u_domain.c/636/0/350945544
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Daemon: Locking not defined using default value disabled
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/lockPages/u_spliced.c/109/0/351118511
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Resend Manager for Participant 0xcf8970 started
+Node        : salman
+Process     : spliced <3423>
+Thread      : resendManager 7f717e04f700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/351819405
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Lease Manager for Participant 0xcf8970 started
+Node        : salman
+Process     : spliced <3423>
+Thread      : watchdog 7f717e073700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/351819958
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Configuration> parameter service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/352004359
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Arguments> parameter service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/352042242
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Class> parameter service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/352070316
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Priority> parameter service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/352091387
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/352113700
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <FailureAction> parameter service durability
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/352133907
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Configuration> parameter service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/91/0/352161506
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Arguments> parameter service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/127/0/352185736
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Class> parameter service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/188/0/352205752
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Priority> parameter service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/233/0/352226952
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <Scheduling/Priority[@priority_kind]> parameter for  service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/289/0/352246277
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Taking default for <FailureAction> parameter service networking
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/sr_serviceInfo.c/352/0/352264721
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : The C&M Service thread is started.
+Node        : salman
+Process     : spliced <3423>
+Thread      : OSPL C&M Command Manager 7f717df2b700
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2045/0/352814903
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Started service durability with args "durability" "file:///home/all/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/353213878
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Started service networking with args "networking" "file:///home/all/HDE/x86_64.linux2.6/etc/config/ospl.xml"
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/404/0/353331464
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : service 'durability': Locking disabled
+Node        : salman
+Process     : durability <3433>
+Thread      : main thread 7f9ef5e7b700
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/354276467
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : service 'networking': Locking disabled
+Node        : salman
+Process     : networking <3434>
+Thread      : main thread 7fb60a2d6700
+Internals   : V5.5.1OSS/lockPages/u_service.c/128/0/354351093
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Resend Manager for Participant 0x6abb70 started
+Node        : salman
+Process     : durability <3433>
+Thread      : resendManager 7f9ef5e79700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/354768373
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Lease Manager for Participant 0x6abb70 started
+Node        : salman
+Process     : durability <3433>
+Thread      : watchdog 7f9ef5e9d700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/354775975
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Resend Manager for Participant 0x1409aa0 started
+Node        : salman
+Process     : networking <3434>
+Thread      : resendManager 7fb60a2d4700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/93/0/354857833
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Lease Manager for Participant 0x1409aa0 started
+Node        : salman
+Process     : networking <3434>
+Thread      : watchdog 7fb60a2f9700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/63/0/354907072
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : my NodeId = 0x152ec0b1
+Node        : salman
+Process     : networking <3434>
+Thread      : main thread 7fb60a2d6700
+Internals   : V5.5.1OSS/networking: nw_controllerInitialize/nw_controller.c/786/0/356976179
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:16 2012
+Description : Durability identification is: 346733004
+Node        : salman
+Process     : durability <3433>
+Thread      : main thread 7f9ef5e7b700
+Internals   : V5.5.1OSS/DurabilityService/d_durability.c/459/0/866851900
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:06:23 2012
+Description : Persistence not enabled!
+Node        : salman
+Process     : durability <3433>
+Thread      : main thread 7f9ef5e7b700
+Internals   : V5.5.1OSS/DurabilityService/d_groupLocalListener.c/2796/0/171113013
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:49 2012
+Description : Lease Manager for Participant 0x1409aa0 stopped
+Node        : salman
+Process     : networking <3434>
+Thread      : watchdog 7fb60a2f9700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/697500379
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:49 2012
+Description : Resend Manager for Participant 0x1409aa0 stopped
+Node        : salman
+Process     : networking <3434>
+Thread      : resendManager 7fb60a2d4700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/697501145
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:52 2012
+Description : Lease Manager for Participant 0x6abb70 stopped
+Node        : salman
+Process     : durability <3433>
+Thread      : watchdog 7f9ef5e9d700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/934273927
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:52 2012
+Description : Resend Manager for Participant 0x6abb70 stopped
+Node        : salman
+Process     : durability <3433>
+Thread      : resendManager 7f9ef5e79700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/934306443
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:53 2012
+Description : The C&M Service thread is notified to terminate.
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/v_splicedCAndMCommandDispatcherQuit/v_spliced.c/2010/0/959156878
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:53 2012
+Description : The C&M Service thread is stopped.
+Node        : salman
+Process     : spliced <3423>
+Thread      : OSPL C&M Command Manager 7f717df2b700
+Internals   : V5.5.1OSS/v_splicedBuiltinCAndMCommandDispatcher/v_spliced.c/2062/0/959304563
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:53 2012
+Description : Resend Manager for Participant 0xcf8970 stopped
+Node        : salman
+Process     : spliced <3423>
+Thread      : resendManager 7f717e04f700
+Internals   : V5.5.1OSS/u_participant::resendManagerMain/u_participant.c/98/0/959327515
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:53 2012
+Description : Lease Manager for Participant 0xcf8970 stopped
+Node        : salman
+Process     : spliced <3423>
+Thread      : watchdog 7f717e073700
+Internals   : V5.5.1OSS/u_participant::leaseManagerMain/u_participant.c/68/0/959326267
+========================================================================================
+Report      : INFO
+Date        : Wed Oct 24 10:07:53 2012
+Description : ==============================================
+              == The service has successfully terminated. ==
+              ==============================================
+Node        : salman
+Process     : spliced <3423>
+Thread      : main thread 7f717e051700
+Internals   : V5.5.1OSS/OpenSplice domain service/spliced.c/749/0/962749239

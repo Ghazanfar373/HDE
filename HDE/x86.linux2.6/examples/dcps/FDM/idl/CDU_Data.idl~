@@ -1,0 +1,103 @@
+module CDU_Data
+{
+	struct FLP
+	{
+		long id;
+		string type;
+		string lat;
+		string lon;
+		long elev;
+		double dtrackLeg;
+		long nxtWPT;
+		string dtrack;
+		string tot;
+		string dit;
+		string offset_bearing;
+		string offset_range;
+		string offset_dit;
+		string offset_lat;
+		string offset_long;
+	};
+	
+	struct DCL
+	{
+	
+		string Attitude_window;
+		string Scales_window;
+		string Data_window;
+		string Altitude_window;
+		string Landing;
+	};
+	
+   struct CduData
+   {
+      // Client Ports and Indices : 7080 = 0 ; 7081 = 1 ; 7082 = 2 ; 7083 = 3 ; 7084 = 4 ; 7085 = 5 ;
+	  
+	  long dID;  // data ID
+      string GPSTime; 						// 0,0
+	  string ChronoTime; 					// 0,1
+	  string AbsoluteTime;					// 0,2
+	  long GunBullets;						// 0,3
+	  string InternalWingArmtName;			// 0,4
+	  long InternalWingArmtQuantity;		// 0,5
+	  double InternalWingArmtDelay;			// 0,6
+	  string RPK;							// 0,7
+	  string FuselageArmtName;				// 0,8
+	  long FuselageArmtQuanity;				// 0,9
+	  double FuselageArmtDelay;				// 0,10
+	  string ExternalWingArmtName;			// 0,11
+	  long Height;							// 0,12
+	  FLP FLP1;								// 0,13-22
+	  boolean Alt_flicker_light;			// 0,23
+	  boolean Alt_On_light;					// 0,24
+	  boolean Ready_flicker_light;			// 0,25
+	  boolean Ready_On_light;				// 0,26
+	  FLP FLP2;								// 0,27-36
+	  string Guid_Dtrack;					// 0,37
+	  string Guid_Abs_time;					// 0,38
+	  
+	  
+	  
+	  string Atk1_MainPage_STRF;			// 2,48
+	  string Atk1_VIP;						// 2,49
+	  string Atk1_NoseTail;					// 3,0
+	  long Atk1_Spacing;					// 3,1
+	  double Atk1_BA;						// 3,2
+	  string Atk2_MainPage_STRF	;			// 3,3
+	  string Atk2_CCIP;						// 3,4
+	  string Atk2_SALVO;					// 3,5
+	  string Atk3_MainPage_STRF;			// 3,6
+	  string A2A_page1_LCOS;				// 3,7
+	  string A2A_page2_Magic;				// 3,8
+	  string A2A_page3_Missile_type;		// 3,9
+	  string A2A_page3_TD;					// 3,10
+	  string A2A_page3_Spot;				// 3,11
+	  string A2A_page3_Bore;				// 3,12
+	  string A2A_page3_WRMoff;				// 3,13
+	  string Nav_OptimalIns;				// 3,14
+	  string Fix_MainPage_Optimal;			// 3,15
+	  string Fix_MainPage_ZBI;				// 3,16
+	  string Fix_MainPage_GPS;				// 3,17
+	  boolean Ofix_Mode;					// 3,18
+	  boolean Hfix_Mode;					// 3,19
+	  boolean ALTCAL_Mode;					// 3,20
+	  boolean HMRK_Mode;					// 3,21
+	  long Alt_SafeCone;					// 3,22
+	  long Alt_Obsatcle;					// 3,23
+	  long Alt_Height;						// 3,24
+	  long Alt_Tactical;					// 3,25
+	  long Alt_Altitude;					// 3,26
+	  double Alt_QNH;						// 3,27
+	  DCL Declutter_1;						// 3,28-32
+	  DCL Declutter_2;						// 3,33-37
+	  DCL Declutter_3;						// 3,38-42
+	  DCL Declutter_4;						// 3,43-47
+	  string state_name;					// 3,48
+	  string Alignment_state;				// NotAligned, Aligned, Aligning
+	  double Alignment_startSpan;				//seconds
+	  long DataGuidance_waypoint_selected;
+	  string FLP_Type;
+	  
+   };
+   #pragma keylist CduData dID
+};
